@@ -396,3 +396,36 @@ main .recent-orders a{
 }
 
 /* ==================================== Recent Orders styles ends ============================== */
+
+
+
+
+/* ==================================== Right styles starts ============================== */
+.right{
+    margin-top: 1.4rem;
+}
+
+/* ==== Top section ==== */
+.right .top{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.right .top button{
+    display: none;
+}
+
+.right .theme-toggler{
+    background: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
+
+
+/* ==================================== Right styles ends ============================== */
